@@ -1,0 +1,24 @@
+h3 {
+    color: green;
+}
+ol {
+    font-size: 20px;
+    font-weight: 800;
+}
+ol.a {
+    list-style-type: upper-alpha;
+    padding-left: 50px;
+}
+ol.b {
+    list-style-type: lower-alpha;
+    padding-left: 50px;
+}
+ol.c {
+    list-style-type: lower-roman;
+}
+ol.d {
+    list-style-type: upper-alpha;
+}
+li {
+    padding: 10px;
+}
