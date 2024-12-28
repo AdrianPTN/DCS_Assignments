@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Map</title>
+</head>
+<body>
+    <h1>World Map</h1>
+    <p>
+        A world map is a map of most or all of the surface of the Earth. World maps form a
+        distinctive category of maps due to the problem of projection. Maps by necessity
+        distort the presentation of the earth's surface. These distortions reach extremes in
+        a world map. The many ways of projecting the earth reflect diverse technical and
+        aesthetic goals for world maps.
+    </p>
+
+    <!-- Clickable map image -->
+    <img src="world-map.jpg" alt="World Map" usemap="#worldmap" style="width:80%; max-width:600px;">
+
+    <!-- Map areas for different continents -->
+    <map name="worldmap">
+        <area shape="rect" coords="60,80,150,150" href="north-america.html" alt="North America">
+        <area shape="rect" coords="60,200,150,280" href="south-america.html" alt="South America">
+        <area shape="rect" coords="300,100,400,200" href="europe.html" alt="Europe">
+        <area shape="rect" coords="250,250,400,350" href="africa.html" alt="Africa">
+        <area shape="rect" coords="500,150,650,250" href="asia.html" alt="Asia">
+    </map>
+</body>
+</html>
